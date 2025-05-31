@@ -1,0 +1,175 @@
+[
+  {
+    "Id": 1,
+    "Title": "App development",
+    "Description": "You are a project manager tasked with overseeing a team of four programmers:\n\nBob, Mark, Dan and Jenny.\n\nEach one of them has unique strengths and preferences. Your goal is to assign tasks in a way that minimizes cost and time while maximizing team morale. However, unforeseen events might disrupt your plans so prepare yourself for some quick thinking and decision making\n",
+    "Employees": [
+      {
+        "Name": "Bob",
+        "Description": "Bob is a seasoned fullstack developer who excels at backend logic and database work. He is highly capable in system design due to his experience, but he finds it mentally exhausting and unfulfilling, which lowers his morale."
+      },
+      {
+        "Name": "Mark",
+        "Description": "Mark is a creative and detail-oriented frontend specialist. He loves working on UI, UX and visual design. He avoids complex backend logic or infrastructure tasks, which he finds boring or overly technical."
+      },
+      {
+        "Name": "Dan",
+        "Description": "Dan is a methodical and pragmatic backend developer. He loves optimizing performance and solving deep logic puzzles. However, he detests writing documentation and working on anything visual."
+      },
+      {
+        "Name": "Jenny",
+        "Description": "Jenny thrives in infrastructure and automation tasks. She enjoys setting up CI CD pipelines, deployment scripts, and system monitoring. She finds frontend tasks tedious and avoids anything related to visual styling."
+      }
+    ],
+    "Stages": [
+      {
+        "Id": 1,
+        "Title": "Design",
+        "Tasks": [
+          {
+            "Id": 1,
+            "Name": "Design system architecture",
+            "CostPerHour": 100,
+            "BobTime": 5,
+            "MarkTime": 8,
+            "DanTime": 6,
+            "JennyTime": 7,
+            "BobMoraleEffect": -2,
+            "MarkMoraleEffect": -3,
+            "DanMoraleEffect": 2,
+            "JennyMoraleEffect": 1
+          },
+          {
+            "Id": 2,
+            "Name": "Project setup",
+            "CostPerHour": 50,
+            "BobTime": 3,
+            "MarkTime": 5,
+            "DanTime": 4,
+            "JennyTime": 2,
+            "BobMoraleEffect": 1,
+            "MarkMoraleEffect": 0,
+            "DanMoraleEffect": 0,
+            "JennyMoraleEffect": 3
+          },
+          {
+            "Id": 3,
+            "Name": "Create wireframes",
+            "CostPerHour": 60,
+            "BobTime": 6,
+            "MarkTime": 2,
+            "DanTime": 7,
+            "JennyTime": 8,
+            "BobMoraleEffect": -1,
+            "MarkMoraleEffect": 4,
+            "DanMoraleEffect": -2,
+            "JennyMoraleEffect": -3
+          }
+        ]
+      },
+      {
+        "Id": 2,
+        "Title": "Production",
+        "Tasks": [
+          {
+            "Id": 1,
+            "Name": "Implement backend API",
+            "CostPerHour": 90,
+            "BobTime": 4,
+            "MarkTime": 7,
+            "DanTime": 3,
+            "JennyTime": 5,
+            "BobMoraleEffect": 2,
+            "MarkMoraleEffect": -2,
+            "DanMoraleEffect": 3,
+            "JennyMoraleEffect": 0
+          },
+          {
+            "Id": 2,
+            "Name": "Build frontend components",
+            "CostPerHour": 85,
+            "BobTime": 6,
+            "MarkTime": 3,
+            "DanTime": 8,
+            "JennyTime": 9,
+            "BobMoraleEffect": 0,
+            "MarkMoraleEffect": 5,
+            "DanMoraleEffect": -2,
+            "JennyMoraleEffect": -3
+          },
+          {
+            "Id": 3,
+            "Name": "Optimize database queries",
+            "CostPerHour": 75,
+            "BobTime": 3,
+            "MarkTime": 7,
+            "DanTime": 2,
+            "JennyTime": 5,
+            "BobMoraleEffect": 2,
+            "MarkMoraleEffect": -2,
+            "DanMoraleEffect": 4,
+            "JennyMoraleEffect": 1
+          },
+          {
+            "Id": 4,
+            "Name": "Set up CI/CD pipeline",
+            "CostPerHour": 70,
+            "BobTime": 5,
+            "MarkTime": 7,
+            "DanTime": 6,
+            "JennyTime": 2,
+            "BobMoraleEffect": 1,
+            "MarkMoraleEffect": -1,
+            "DanMoraleEffect": 0,
+            "JennyMoraleEffect": 5
+          }
+        ]
+      },
+      {
+        "Id": 3,
+        "Title": "Delivery",
+        "Tasks": [
+          {
+            "Id": 1,
+            "Name": "Write documentation",
+            "CostPerHour": 40,
+            "BobTime": 4,
+            "MarkTime": 4,
+            "DanTime": 5,
+            "JennyTime": 3,
+            "BobMoraleEffect": -1,
+            "MarkMoraleEffect": 1,
+            "DanMoraleEffect": -3,
+            "JennyMoraleEffect": 0
+          },
+          {
+            "Id": 2,
+            "Name": "Deploy to production",
+            "CostPerHour": 80,
+            "BobTime": 5,
+            "MarkTime": 6,
+            "DanTime": 5,
+            "JennyTime": 2,
+            "BobMoraleEffect": 0,
+            "MarkMoraleEffect": -1,
+            "DanMoraleEffect": 1,
+            "JennyMoraleEffect": 4
+          },
+          {
+            "Id": 3,
+            "Name": "Final bug fixes",
+            "CostPerHour": 60,
+            "BobTime": 4,
+            "MarkTime": 5,
+            "DanTime": 4,
+            "JennyTime": 6,
+            "BobMoraleEffect": 1,
+            "MarkMoraleEffect": -2,
+            "DanMoraleEffect": 1,
+            "JennyMoraleEffect": 0
+          }
+        ]
+      }
+    ]
+  }
+]

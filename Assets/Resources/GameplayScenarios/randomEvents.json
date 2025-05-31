@@ -1,0 +1,391 @@
+
+[
+    {
+      "Id": 1,
+      "Name": "Conflict in the team",
+      "Description": "Two of your employees get into a heated argument",
+      "Reactions": [
+        {
+          "Action": "Do nothing",
+          
+            "Randomize": true,
+            "Morale": 0,
+            "Budget": 0,
+            "Time": 0
+          
+        },
+        {
+          "Action": "Mediate",
+          
+            "Randomize": false,
+            "Morale": 3,
+            "Budget": 0,
+            "Time": 2
+          
+        },
+        {
+          "Action": "Discipline",
+          
+            "Randomize": false,
+            "Morale": -2,
+            "Budget": 0,
+            "Time": 0
+          
+        },
+        {
+          "Action": "Assign more work",
+          
+            "Randomize": false,
+            "Morale": -4,
+            "Budget": 0,
+            "Time": 0
+          
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "Sudden Server Crash",
+      "Description": "Your backend servers go down unexpectedly, affecting app functionality.",
+      "Reactions": [
+        {
+          "Action": "Do nothing",
+          
+            "Randomize": true,
+            "Morale": 0,
+            "Budget": 0,
+            "Time": 0
+          
+        },
+        {
+          "Action": "Deploy emergency fix",
+          
+            "Randomize": false,
+            "Morale": -1,
+            "Budget": -2,
+            "Time": 1
+          
+        },
+        {
+          "Action": "Roll back to previous stable version",
+          
+            "Randomize": false,
+            "Morale": -1,
+            "Budget": 0,
+            "Time": 2
+          
+        },
+        {
+          "Action": "Hire external consultant",
+          
+            "Randomize": false,
+            "Morale": 1,
+            "Budget": -3,
+            "Time": 0
+          
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Name": "Team Member Comes Up with a Brilliant Idea",
+      "Description": "One of your developers proposes a feature that could boost user retention.",
+      "Reactions": [
+        {
+          "Action": "Do nothing",
+          
+            "Randomize": true,
+            "Morale": 0,
+            "Budget": 0,
+            "Time": 0
+          
+        },
+        {
+          "Action": "Encourage implementation",
+          
+            "Randomize": false,
+            "Morale": 2,
+            "Budget": -1,
+            "Time": 2
+          
+        },
+        {
+          "Action": "Ask for a proposal first",
+          
+            "Randomize": false,
+            "Morale": 1,
+            "Budget": 0,
+            "Time": 1
+          
+        },
+        {
+          "Action": "Reject the idea",
+          
+            "Randomize": false,
+            "Morale": -3,
+            "Budget": 0,
+            "Time": 0
+          
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Name": "App Store Policy Change",
+      "Description": "A new policy requires all apps to follow stricter privacy rules.",
+      "Reactions": [
+        {
+          "Action": "Do nothing",
+          
+            "Randomize": true,
+            "Morale": 0,
+            "Budget": 0,
+            "Time": 0
+          
+        },
+        {
+          "Action": "Update privacy settings immediately",
+          
+            "Randomize": false,
+            "Morale": 0,
+            "Budget": -2,
+            "Time": 2
+          
+        },
+        {
+          "Action": "Delay implementation",
+          
+            "Randomize": false,
+            "Morale": -1,
+            "Budget": 0,
+            "Time": 1
+          
+        },
+        {
+          "Action": "Outsource compliance",
+          
+            "Randomize": false,
+            "Morale": 0,
+            "Budget": -3,
+            "Time": 1
+          
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Name": "Unexpected Positive Review",
+      "Description": "A major tech blog posts a glowing review of your early beta.",
+      "Reactions": [
+        {
+          "Action": "Do nothing",
+          
+            "Randomize": true,
+            "Morale": 0,
+            "Budget": 0,
+            "Time": 0
+          
+        },
+        {
+          "Action": "Promote the review online",
+          
+            "Randomize": false,
+            "Morale": 2,
+            "Budget": -1,
+            "Time": -1
+          
+        },
+        {
+          "Action": "Send thank-you gift to the writer",
+          
+            "Randomize": false,
+            "Morale": 1,
+            "Budget": -2,
+            "Time": 0
+          
+        },
+        {
+          "Action": "Start preparing for press inquiries",
+          
+            "Randomize": false,
+            "Morale": 0,
+            "Budget": 0,
+            "Time": 1
+          
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "Name": "Surprise Code Merge",
+      "Description": "One of the developers accidentally merged untested code into production.",
+      "Reactions": [
+        {
+          "Action": "Do nothing",
+          
+            "Randomize": true,
+            "Morale": 0,
+            "Budget": 0,
+            "Time": 0
+          
+        },
+        {
+          "Action": "Revert the merge",
+          
+            "Randomize": false,
+            "Morale": -1,
+            "Budget": 0,
+            "Time": 1
+          
+        },
+        {
+          "Action": "Conduct emergency testing",
+          
+            "Randomize": false,
+            "Morale": -1,
+            "Budget": -1,
+            "Time": 2
+          
+        },
+        {
+          "Action": "Blame and penalize developer",
+          
+            "Randomize": false,
+            "Morale": -4,
+            "Budget": 0,
+            "Time": 0
+          
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "Name": "Productivity Hackathon",
+      "Description": "Your team spontaneously organizes a weekend hackathon and makes surprising progress.",
+      "Reactions": [
+        {
+          "Action": "Do nothing",
+          
+            "Randomize": true,
+            "Morale": 0,
+            "Budget": 0,
+            "Time": 0
+          
+        },
+        {
+          "Action": "Support the hackathon",
+          
+            "Randomize": false,
+            "Morale": 2,
+            "Budget": -1,
+            "Time": -2
+        },
+        {
+          "Action": "Provide rewards for participation",
+          
+            "Randomize": false,
+            "Morale": 3,
+            "Budget": -2,
+            "Time": -1
+          
+        },
+        {
+          "Action": "Ban work over the weekend",
+          
+            "Randomize": false,
+            "Morale": -2,
+            "Budget": 0,
+            "Time": 1
+          
+        }
+      ]
+    },
+    {
+      "Id": 8,
+      "Name": "Security Vulnerability",
+      "Description": "A serious security flaw is discovered in one of your app's dependencies.",
+      "Reactions": [
+        {
+          "Action": "Do nothing",
+          
+            "Randomize": true,
+            "Morale": 0,
+            "Budget": 0,
+            "Time": 0
+          
+        },
+        {
+          "Action": "Patch it immediately",
+          
+            "Randomize": false,
+            "Morale": 0,
+            "Budget": -2,
+            "Time": 1
+          
+        },
+        {
+          "Action": "Schedule update",
+          
+            "Randomize": false,
+            "Morale": -1,
+            "Budget": -1,
+            "Time": 0
+          
+        },
+        {
+          "Action": "Replace dependency entirely",
+          
+            "Randomize": false,
+            "Morale": 1,
+            "Budget": -3,
+            "Time": 2
+          
+        }
+      ]
+    },
+
+    {
+      "Id": 9,
+      "Name": "New AI-Powered Tool",
+      "Description": "A cutting-edge AI tool becomes available that could automate some parts of your development process.",
+      "Reactions": [
+        {
+          "Action": "Do nothing",
+          
+            "Randomize": true,
+            "Morale": 0,
+            "Budget": 0,
+            "Time": 0
+          
+        },
+        {
+          "Action": "Adopt the tool immediately",
+          
+            "Randomize": false,
+            "Morale": 1,
+            "Budget": -2,
+            "Time": -2
+          
+        },
+        {
+          "Action": "Give to one of the developers for testing",
+          
+            "Randomize": false,
+            "Morale": 1,
+            "Budget": -1,
+            "Time": -1
+          
+        },
+        {
+          "Action": "Reject the tool as hype",
+          
+            "Randomize": false,
+            "Morale": -1,
+            "Budget": 0,
+            "Time": 0
+          
+        }
+      ]
+    }
+  ]
+
